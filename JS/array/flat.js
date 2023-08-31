@@ -8,3 +8,4 @@ console.log(flat2); // [1, 2, 3, 4, 5, 6]
 
 const flat3 = nested.flat(Infinity);
 console.log(flat3); // [1, 2, 3, 4, 5, 6]
+
