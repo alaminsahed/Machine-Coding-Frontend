@@ -1,9 +1,10 @@
 import React from 'react';
+import './progressBar.css';
 
-const ProgressBar = () => {
+const ProgressBar = ({ progress = 0 }) => {
     return (
-        <div>
-            <div></div>
+        <div className='progress-bar'>
+            <div className='progress-bar-fill' style={{ transform: `translateX(${progress - 100}%)` }}></div>
         </div>
     );
 };
