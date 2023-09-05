@@ -1,1 +1,2 @@
-Create a progress bar
+Task: Create a progress bar
+Company: FlipCart
