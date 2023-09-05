@@ -8,7 +8,7 @@ const Progress = ({ value = 0 }) => {
     return (
         <div className='progress'>
             <span>{value}</span>
-            <div style={{ width: `${value}%` }} />
+            <div style={{ width: `${value}%` }} role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={value} />
         </div>
     );
 };
